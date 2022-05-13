@@ -1,0 +1,263 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #e1f7ed;
+    color: #113f3d;
+}
+header {
+    background-color: #e1f7ed;
+    color: 	#113f3d;
+    width: 100%;
+    min-height: 60px;
+    padding: 20px 0 0 0;
+}
+
+/* Sivuston sivujen lista */
+header ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Sivuston sivujen otsikot */
+header li {
+    float: left;
+    padding: 0 20px 0 20px;
+    display: inline;
+}
+
+/* Sivuston sivujen otsikoiden linkit */
+header li a {
+    color: #113f3d;
+    text-decoration: none;
+}
+
+/* Kaikki yläpalkin linkit reagoi hiiren päälläoloon */
+header li a:hover {
+    font-weight: bolder;
+    color: #228580;
+}
+
+/* Yläpalkin logo */
+header .logo {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sivuston sivujen kohdistus yläpalkissa */
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Yläpalkin napit */
+header button {
+    padding: 0;
+    margin-top: -15px;
+    width: 120px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #228580, #4ecfc9);
+    color: #e1f7ed;
+    border: none;
+}
+
+header button:hover {
+    background: #113f3d;
+    color:#e1f7ed;
+}
+header button a {
+    color:#e1f7ed;
+
+}
+
+header button a:hover {
+    color:#e1f7ed;
+    font-weight: normal;
+}
+
+.filler {
+    height: 70px;
+    background: linear-gradient(to right, #228580, #4ecfc9);
+}
+.calendar {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+.calendar .header .month-year {
+    padding-bottom: 30px;
+    background: linear-gradient(to right, #228580, #4ecfc9);
+    color: #e1f7ed;
+    font-size:x-large;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.calendar .header .month-year ul {
+    margin: 0;
+    padding: 0;
+}
+      
+.calendar .header .month-year ul li {
+    color: #e1f7ed;
+    font-size:x-large;
+    
+    
+    display: inline;
+}
+.calendar .header .month-year .prev {
+    float: left;
+    padding-top: 10px;
+    padding-left: 50px;
+    
+}
+
+.calendar .header .month-year .next {
+    float: right;
+    padding-top: 10px;
+    padding-right: 50px
+}
+
+.calendar .header .month-year button {
+    background-color: transparent;
+    color: #e1f7ed;
+    border: none;
+}
+
+
+
+.calendar .header .month-year button a {
+    display: block;
+    color: #e1f7ed;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+
+}
+
+.calendar .days {
+    display: flex;
+    flex-flow: wrap;
+}
+.calendar .days .day_name {
+    display: inline-block;
+    width: calc(100% / 7);
+    height: 30px;
+    padding-top: 5px;
+    color: #666;
+    background-color:#c4d8cf;
+    text-align: center;
+}
+.calendar .days .day_name:nth-child(7) {
+    border: none;
+}
+.calendar .days .day_num {
+    display: inline-block;
+    width: 14.27%;
+    height: 75px;
+    text-align: center;
+    font-size:12px;
+    color: #777;
+}
+.calendar .days .day_num span {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+}
+.calendar .days .day_num .event button {
+    display: inline;
+    width: 100%;
+    padding: 1px;
+    background-color: #22858080;
+    color: #e1f7ed;
+    border: none;
+    border-radius: 10px;
+}
+.calendar .days .day_num .event button a {
+    display: block;
+    color:#e1f7ed;
+    text-decoration: none;
+}
+.calendar .days .day_num .event button:hover {
+    background-color: #228580;
+    color:#e1f7ed;
+}
+.calendar .days .day_num .event.green {
+    background-color: #a4f3be;
+}
+.calendar .days .day_num .event.blue {
+    background-color: #518fce;
+}
+.calendar .days .day_num .event.red {
+    background-color: #e6c0f0;
+}
+.calendar .days .day_num:nth-child(7n+1) {
+    border-left: 1px solid #e6e9ea;
+}
+
+.calendar .days .day_num.ignore {
+    background-color: #dee9e4;
+    color: #abb2b6;
+    cursor: inherit;
+}
+.calendar .days .day_num.selected {
+    background-color: #b8f7da;
+    cursor: inherit;
+}
+#footer {
+    background-color: #e1f7ed;
+    padding: 40px 0 10px 0;
+    margin: 0;
+    color: #113f3d;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#perus {
+    background-color: #e1f7ed;
+    color: 	#113f3d;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Otsikko */
+#perus h2 {
+    padding: 0;   
+}
+
+/* Napit */
+#perus button {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    background-color: #228580;
+    border: solid;
+    border-color:#e1f7ed;
+}
+
+
+/* Kun napin päällä pitää hiirtä */
+#perus button:hover {
+    border-color:#113f3d;
+}
+
+/* Napin linkki */
+#perus button a {
+    color:#e1f7ed;
+    text-decoration: none;
+}
+
+#footer p {
+    float:inline-start;
+    margin: 0;
+}
+.ivvlogo {
+    margin-bottom: -40px;
+}

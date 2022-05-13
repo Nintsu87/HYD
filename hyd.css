@@ -1,0 +1,224 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+#yla{
+    margin: 1%;
+    text-align: end;
+}
+.otsikko{
+    background: linear-gradient(to right, #228580, #4ecfc9);
+    padding-top: 1%;
+}
+
+.ekaotsikko{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.tokaotsikko{
+    text-align: center;
+}
+
+.merkki{
+    padding-left: 1%;
+    margin-bottom: -60px;
+    position: relative;
+    left: 60%;
+    top: -100px;
+    height: 85px;
+    width: 50px;
+}
+
+.kuva{
+    margin-left: 50px;
+    margin-top: -50px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.esittely{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1%;
+}
+
+.hero{
+    height: 500px;
+    width: 450px;
+    background-color: #228580 ;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    left: 36%;
+    bottom: 1%;
+    border-radius: 1%;
+    padding: 2%;
+}
+
+.form-box{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    bottom: 5%;
+    margin: 6% auto;
+    background:#e1f7ed ;
+    padding: 5%;
+    border-radius: 1%;
+    overflow: hidden;
+}
+.button-box{
+    width: 250px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 10px 5px #228580 ;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 27px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 140px ;
+    height: 100% ;
+    background: linear-gradient(to right, #228580, #b0ece9);
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    margin: 1%;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 2%;
+    background: linear-gradient(to right, #228580, #b0ece9);
+    border: 0;
+    outline: none;
+    border-radius: 2%;
+}
+.chech-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
+#ala{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    padding-top: 2%;
+    margin-bottom: -30px;
+}
+
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 65%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{
+    width: 120px;
+    margin-top: -50px;
+    border-radius: 50%;
+
+}
+
+.popup h2{
+    font-size: 33px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: linear-gradient(to right, #228580, #b0ece9);
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1300px){
+    .merkki{
+        position: relative;
+        left: 70%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .merkki{
+        position: relative;
+        left: 80%;
+    }
+    .hero{
+        left: 2px;
+    }
+    .kuva{
+        margin-left: 20px;
+        margin-top: -50px;
+        height: 90px;
+        width: 90px;
+    
+    }
+}

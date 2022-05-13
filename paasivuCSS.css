@@ -1,0 +1,117 @@
+body {font-family: sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #e1f7ed;
+
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.container a{
+    color: #113f3d;
+    text-decoration: none;
+}
+.container a:hover{
+    color: rgb(145, 143, 143);
+}
+
+header{
+    background-color: #e1f7ed;
+    color: #113f3d;
+    min-height: 60px;
+    padding: 20px 0 0 0;
+}
+
+header ul{
+    padding: 0;
+    margin: 0;
+}
+header li{
+    float: left;
+    padding: 0 20px 0 20px;
+    display: inline;
+    margin-top: 40px;
+}
+header li a{
+    color: #113f3d;
+    text-decoration: none;
+}
+header ul button{
+    padding: 0;
+    width: 100px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 25px;
+    background-color: #228580;
+    color: #113f3d;
+
+
+}
+header .logo{
+    float: left;
+    padding: 0;
+    margin-top: 0;
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header a:hover{
+    color: #113f3d;
+    font-weight: bolder;
+}
+#banner-section{
+    min-height: 200px;
+    background-color: #228580;
+    background-position: 63% 37%;
+    background-size: cover;
+
+}
+#banner-section p{
+    color:#113f3d;
+    text-align: center;
+    padding: 85px;
+    font-weight: bold;
+}
+#tiles{
+    margin-top: 55px;
+    margin-left: 70px;
+
+}
+#tiles .square{
+    width: 30%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    min-height: 300px;
+}
+#tiles .square img{
+    border-radius: 40%;
+    height: 120px;
+    width: 125px;
+}
+#footer{
+    background-color: #228580;
+    color: #113f3d;
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+    width: auto;
+    overflow: hidden;
+}
+#footer img{
+    margin: 0 auto;
+    border: none;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+} 
+

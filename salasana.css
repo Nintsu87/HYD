@@ -1,0 +1,126 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+#yla{
+    margin: 1%;
+    text-align: end;
+}
+.otsikko{
+    background: linear-gradient(to right, #228580, #4ecfc9);
+    padding-top: 1%;
+}
+
+.ekaotsikko{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.tokaotsikko{
+    text-align: center;
+}
+
+.merkki{
+    padding-left: 1%;
+    margin-bottom: -60px;
+    position: relative;
+    left: 60%;
+    top: -100px;
+    height: 85px;
+    width: 50px;
+}
+
+.kuva{
+    margin-left: 50px;
+    margin-top: -50px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.perus {
+    background-color: #e1f7ed;
+    color: 	#113f3d;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+.hero{
+    height: 370px;
+    width: 450px;
+    background-color: #228580 ;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    top: -120px;
+    left: 36%;
+    border-radius: 1%;
+    padding: 2%;
+
+}
+
+.input{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.form-box{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: -15px;
+    margin: 5%;
+    background:#e1f7ed ;
+    padding: 5%;
+    border-radius: 1%;
+}
+.form-box button{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 4%;
+    background: linear-gradient(to right, #228580, #b0ece9);
+    border: 0;
+    outline: none;
+    border-radius: 2%;
+    transition: .3s;
+}
+.form-box button:hover{
+    cursor: pointer;
+    background: linear-gradient(to left, #228580, #b0ece9);
+}
+
+#footer {
+    background-color: #e1f7ed;
+    position: relative;
+    top: -50px;
+    margin:0;
+    color: #113f3d;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#footer p {
+    float:inline-start;
+    margin: 0%;
+}
+.ivvlogo {
+    margin-bottom: -40px;
+}

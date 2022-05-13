@@ -1,0 +1,218 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #e1f7ed;
+    color: #113f3d;
+}
+
+/* Eniten käytettyjen luokkien muokkausta */
+#perus {
+    background-color: #e1f7ed;
+    color: 	#113f3d;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Otsikko */
+#perus h2 {
+    padding: 0;   
+}
+
+/* Napit */
+#perus button {
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 15px;
+    background: #228580;
+    border: none;
+}
+
+/* Kun napin päällä pitää hiirtä */
+#perus button:hover {
+    background: #113f3d;
+}
+
+/* Napin linkki */
+#perus button a {
+    color:#e1f7ed;
+    text-decoration: none;
+}
+
+/* Yläpalkki */
+header {
+    background-color: #e1f7ed;
+    color: 	#113f3d;
+    min-height: 60px;
+    padding-top: 20px;
+}
+
+/* Sivuston sivujen lista */
+header ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Sivuston sivujen otsikot */
+header li {
+    float: left;
+    padding: 0 20px 0 20px;
+    display: inline;
+}
+
+/* Sivuston sivujen otsikoiden linkit */
+header li a {
+    color: #113f3d;
+    text-decoration: none;
+}
+
+/* Kaikki yläpalkin linkit reagoi hiiren päälläoloon */
+header li a:hover {
+    font-weight: bolder;
+    color: #228580;
+}
+
+/* Yläpalkin logo */
+header .logo {
+    float: left;
+    padding: 0;
+    margin: 0 0 0 15px;
+}
+
+/* Sivuston sivujen kohdistus yläpalkissa */
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Yläpalkin napit */
+header button {
+    padding: 0;
+    margin-top: -10px;
+    width: 120px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #228580, #4ecfc9);
+    color: #e1f7ed;
+    border: none;
+}
+
+header button:hover {
+    background: #113f3d;
+    color:#e1f7ed;
+}
+
+header button a {
+    color:#e1f7ed;
+
+}
+
+header button a:hover {
+    color:#e1f7ed;
+    font-weight: normal;
+}
+
+.raita {
+    padding: 110px 0 110px 0;
+    width: 100%;
+    background: linear-gradient(to right, #228580, #4ecfc9);
+    color: #e1f7ed;
+    text-align: center;
+}
+
+.omppu {
+    margin-bottom: -30px;
+}
+
+#laatikot {
+    margin-top: 20px
+
+}
+
+#laatikot .laatikko {
+    width: 48%;
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    min-height: 300px;
+}
+
+#laatikot .laatikko button {
+    padding: 0;
+    margin: 20px 30px 20px 39%;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+    background: linear-gradient(to right, #228580, #4ecfc9);
+    border: none;
+    color:#e1f7ed
+}
+
+
+#laatikot .laatikko button:hover {
+    background:#113f3d;
+    cursor: pointer;
+}
+
+.analyysi {
+    margin: 20% 20% 0 20%;
+    text-align: center;
+}
+
+.arvo {
+    height: 50px;
+    width: 110px;
+    border: #113f3d;
+    border-style: double;
+    margin-left: 50%
+}
+
+.check {
+    height: 20px;
+    width: 20px;
+    margin: 30px 10px 30px 0
+}
+
+.muut {
+    margin-left: 39%;
+}
+
+.muut button {
+    display: inline;
+    background:#228580;
+    margin: 40px;
+    border-color:#e1f7ed;
+    border-style: double;
+    border-radius: 50%;
+}
+.muut button:hover{
+    border-color:#113f3d;
+    border-style: double;
+}
+
+/* Alapalkki */
+#footer {
+    background-color: #e1f7ed;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin:0;
+    color: #113f3d;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#footer p {
+    float:inline-start;
+    margin: 0;
+}
+.ivvlogo {
+    margin-bottom: -40px;
+}
