@@ -16,7 +16,7 @@ Kuka teki mitäkin:
 
 Pahoittelut tynkämäisestä esittelystä Minnan ja Meerin puolesta. Osaan vain omat hommani selittää ulkoa enää näin jälkikäteen.
 
-Meeri hoisi kirjautumisen ja rekisteröitymisen toiminnallisuuden (random id luodaan jokaiselle, javascript popupit, salasanan turvallisuuscheckin ym), db yhteyden ja ulkonäön ja myös verenpainesivun toiminnallisuuden ja db yhteyden. Hän myös suunnitteli arvosivujen ulkonäön.
+Meeri hoisi kirjautumisen ja rekisteröitymisen toiminnallisuuden (random id luodaan jokaiselle, javascript popupit, salasanan turvallisuuscheckin ym), db yhteyden ja ulkonäön ja myös verenpainesivun toiminnallisuuden ja db yhteyden. Hän myös suunnitteli arvosivujen ja kirjautumissivun ulkonäön.
 
 Minna oli vastuussa kirjautumisen jälkeisestä etusivusta ja bmi sivun toiminnallisuuksista ja db yhteydestä. Hän myös suunnitteli arvosivujen iconit (omena, sydän ja bmi).
 
